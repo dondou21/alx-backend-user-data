@@ -1,12 +1,24 @@
+Background Context
+In this project, you will implement a Session Authentication. You are not allowed to install any other module.
+
+In the industry, you should not implement your own Session authentication system and use a module or framework that doing it for you (like in Python-Flask: Flask-HTTPAuth). Here, for the learning purpose, we will walk through each step of this mechanism to understand it by doing.
+
+Resources
+Read or watch:
+
+REST API Authentication Mechanisms - Only the session auth part
+HTTP Cookie
+Flask
+Flask Cookie
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
 What authentication means
-What Base64 is
-How to encode a string in Base64
-What Basic authentication means
-How to send the Authorization header
+What session authentication means
+What Cookies are
+How to send Cookies
+How to parse Cookies
 Requirements
 Python Scripts
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
